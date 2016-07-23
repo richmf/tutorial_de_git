@@ -25,13 +25,13 @@ $ git config --global user.email "tu_email@correoelectronico.com"
 
 Primero hay que generar un repositorio vacío en la página de GitHub. En el caso de este tutorial utilizaremos como ejemplo la forma en la que se generó este repositorio. Para ello en la página de GitHub se creó el repositorio llamado *tutorial_de_git* y como resultado el sitio de internet nos generó la siguiente página para el repositorio: *https://github.com/richmf/tutorial_de_git.git* . De esta manera en los servidores de **GitHub** estará dado de alta el repositorio. Para poner archivos en nuestro repositorio basta con subir los archivos por medio del sitio de internet, pero es la manera más ineficiente que hay cuando se está desarrollando un programa y además mantenerlo actualizado. Es por ello que utilizamos en comando **git**. En este caso hay dos maneras de proceder:
 
-1. Podemos clonar el repositorio itroduciendo el siguiente comando en la terminal:
-```
-git clone https://github.com/richmf/tutorial_de_git.git
-```
-Esto creará una carpeta llamada *tutorial_de_git* en nuestra computadora y dentro de ella se encontrarán los archivos que tenemos en el repositorio.
+    1. Podemos clonar el repositorio itroduciendo el siguiente comando en la terminal:
+    ```
+    git clone https://github.com/richmf/tutorial_de_git.git
+    ```
+    Esto creará una carpeta llamada *tutorial_de_git* en nuestra computadora y dentro de ella se encontrarán los archivos que tenemos en el repositorio.
 
-2.
+    2. La segunda opción es 
 
 
 
