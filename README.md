@@ -43,7 +43,7 @@ Cualquiera de las dos maneras que se elijan, el resultado es el mismo. La primer
 
 ## Para agregar nuevos archivos o hacer modificaciones
 
-Dentro de la carpeta local podemos hacer modificaciones y/o crear nuevos archivos. Para que éstos queden dentro de la estructura de actualización en tenemos que agragarlos al **git** con el siguiente comando:
+Dentro de la carpeta local podemos hacer modificaciones y/o crear nuevos archivos. Para que éstos queden dentro de la estructura de actualización en tenemos que agregarlos al índice de **git** con el siguiente comando:
 ```
 $ git add nombre_del_archivo
 ```
@@ -51,7 +51,7 @@ Con esto hemos agregado el archivo a la lista de **git**. Para llevar el control
 ```
 $ git commit -m "Mensaje a grabar"
 ```
-Es importante señalar que tenemos que poner un mensaje con el que podamos identificar las modificaiones que realizamos con respecto a la versión anterior. Finalmente, ahora estamos en posición de enviar las actualizaciones al servidor de GitHub con el siguiente comando:
+Es importante señalar que tenemos que poner un mensaje con el que podamos identificar las modificaciones que realizamos con respecto a la versión anterior. Finalmente, ahora estamos en posición de enviar las actualizaciones al servidor de GitHub con el siguiente comando:
 ```
 $ git push origin master
 ```

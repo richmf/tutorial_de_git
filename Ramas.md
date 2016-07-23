@@ -22,7 +22,7 @@ De esta manera podemos tener en el mismo repositorio diferentes versiones, típi
 
 ## Actualizar y combinar ramas
 
-Antes de actualizar o combinar 
+Antes de actualizar o combinar nuestro repositorio
 
 Regresar a la página principal del [tutorial](https://github.com/richmf/tutorial_de_git)
 
