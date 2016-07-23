@@ -45,21 +45,30 @@ Cualquiera de las dos maneras que se elijan, el resultado es el mismo. La primer
 
 Dentro de la carpeta local podemos hacer modificaciones y/o crear nuevos archivos. Para que éstos queden dentro de la estructura de actualización en tenemos que agragarlos al **git** con el siguiente comando:
 ```
-git add nombre_del_archivo
+$ git add nombre_del_archivo
 ```
 Con esto hemos agregado el archivo a la lista de **git**. Para llevar el control de actualizaciones o modificaciones es necesario avisarle a **git** con el siguiente comando:
 ```
-git commit -m "Mensaje a grabar"
+$ git commit -m "Mensaje a grabar"
 ```
 Es importante señalar que tenemos que poner un mensaje con el que podamos identificar las modificaiones que realizamos con respecto a la versión anterior. Finalmente, ahora estamos en posición de enviar las actualizaciones al servidor de GitHub con el siguiente comando:
 ```
-git push origin master
+$ git push origin master
 ```
 Una herramienta útil con la que podemos checar el status de nuestro repositorio con el siguiente comando
 ```
-git status
+$ git status
 ```
-De esta manera podemos saber a que archivos tenemos hay que hacerles *add* y/o *commit*. Como se puede 
+De esta manera podemos saber a que archivos tenemos hay que hacerles *add* y/o *commit*. Como se puede apreciar, la secuencia básica de comandos es:
+```
+$ git add nombre_del_archivo
+$ git commit -m "Mensaje a grabar"
+$ git push origin master
+```
+
+De esta manera podemos tener una copia actualizada de nuestro trabajo en GitHub. En el otro archivo de este tutorial podemos encontrar herramientas y tips que pueden ser útiles para manejar con mayor eficiencia el comando **git**. Los tópicos que se abordan son:
+
+- Ramas y control de versiones.
 
 
 Regresar a las [Herramientas](http://sistemas.fciencias.unam.mx/~rich/herramientas/index.html)
