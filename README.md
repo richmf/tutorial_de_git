@@ -25,22 +25,24 @@ $ git config --global user.email "tu_email@correoelectronico.com"
 
 Primero hay que generar un repositorio vacío en la página de GitHub. En el caso de este tutorial utilizaremos como ejemplo la forma en la que se generó este repositorio. Para ello en la página de GitHub se creó el repositorio llamado *tutorial_de_git* y como resultado el sitio de internet nos generó la siguiente página para el repositorio: *https://github.com/richmf/tutorial_de_git.git* . De esta manera en los servidores de **GitHub** estará dado de alta el repositorio. Para poner archivos en nuestro repositorio basta con subir los archivos por medio del sitio de internet, pero es la manera más ineficiente que hay cuando se está desarrollando un programa y además mantenerlo actualizado. Es por ello que utilizamos en comando **git** y para ello dos maneras de proceder:
 
-    1. Podemos clonar el repositorio itroduciendo el siguiente comando en la terminal:
+1. Podemos clonar el repositorio itroduciendo el siguiente comando en la terminal:
     ```
     $ git clone https://github.com/richmf/tutorial_de_git.git
     ```
-    Esto creará una carpeta llamada *tutorial_de_git* en nuestra computadora y dentro de ella se encontrarán los archivos que tenemos en el repositorio.
+Esto creará una carpeta llamada *tutorial_de_git* en nuestra computadora y dentro de ella se encontrarán los archivos que tenemos en el repositorio.
 
-    2. La segunda opción es crear la carpeta, dar de alta a **git** dentro de la carpeta y el repositorio al que estará asociado. Esto se logra con los siguientes comandos en la terminal:
+2. La segunda opción es crear la carpeta, dar de alta a **git** dentro de la carpeta y el repositorio al que estará asociado. Esto se logra con los siguientes comandos en la terminal:
     ```
     $ mkdir tutorial_de_git.git
     $ cd tutorial_de_git/
     $ git init
     $ git remote add origin https://github.com/richmf/tutorial_de_git.git
     ```
-    Con esto 
+Con esto 
     
-Cualquiera de las dos maneras que se elijan, el resultado es el mismo. La primera opción es más utilizada cuando se quiere hacer un repositorio completamente nuevo y la segunda opción se utiliza cuando tenemos un programa que ha hemos estado trabajando en nuestra computadora y ahora queremos utilizar GitHub para publicarlo.
+Cualquiera de las dos maneras que se elijan, el resultado es el mismo. La primera opción es más utilizada cuando se quiere hacer un repositorio completamente nuevo y la segunda opción se utiliza cuando tenemos un programa que ha hemos estado trabajando en nuestra computadora y ahora queremos utilizar GitHub para publicarlo. De hecho, en el segundo caso basta con los últimos dos comandos para inicializar git en dicha carpeta, sólo hay que tomar en cuenta que el repositorio debe existir en la página de GitHub.
+
+## Para agregar nuevos archivos o hacer modificaciones
 
 
 
