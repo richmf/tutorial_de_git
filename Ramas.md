@@ -14,7 +14,7 @@ Si queremos borrar la rama es con el siguiente comando:
 ```
 $ git branch -d mi_rama
 ```
-Al igual que con la rama principal, es necesario hacer hacer *add* y  *commit* a los archivos modificados. En este caso para que las actualizaciones lleguen al repositorio en **GitHub** es con el siguiente comando:
+Al igual que con la rama principal, es necesario hacer *add* y  *commit* a los archivos modificados. En este caso para que las actualizaciones lleguen al repositorio en **GitHub** es con el siguiente comando:
 ```
 $ git push origin mi_rama
 ```
