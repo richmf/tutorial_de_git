@@ -20,6 +20,17 @@ $ git push origin mi_rama
 ```
 De esta manera podemos tener en el mismo repositorio diferentes versiones, típicamente una o varias que estamos modificando para mejorar la principal o *master*.
 
+### Ejemplo
+
+supongamos que queremos hacer una rama y en ésta hacemos una modificación a un archivo del repositorio. Para ello ejecutamos la siguiente secuancia de comandos:
+
+```
+$ git checkout -b rama
+$ git add archivo_modificado 
+$ git commit -m "Actualizacion en una rama"
+$ git push origin rama
+```
+
 ## Actualizar y combinar ramas
 
 Antes de actualizar o combinar nuestro repositorio es necesario revisar las diferencias entre las ramas que con las que estamos trabajando. Es por ello que el comando **git** tiene una herramienta que nos permite saber cuales son las diferencias entre los archivos. Para ello hay que ejecutar el siguiente comando:
