@@ -22,7 +22,13 @@ De esta manera podemos tener en el mismo repositorio diferentes versiones, típi
 
 ## Actualizar y combinar ramas
 
-Antes de actualizar o combinar nuestro repositorio
+Antes de actualizar o combinar nuestro repositorio es necesario revisar las diferencias entre las ramas que con las que estamos trabajando. Es por ello que el comando **git** tiene una herramienta que nos permite saber cuales son las diferencias entre los archivos. Para ello hay que ejecutar el siguiente comando:
+```
+$ git push origin mi_rama
+```
+
+
+
 
 Regresar a la página principal del [tutorial](https://github.com/richmf/tutorial_de_git)
 
