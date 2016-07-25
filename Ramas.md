@@ -26,8 +26,9 @@ supongamos que queremos hacer una rama y en ésta hacemos una modificación a un
 
 ```
 $ git checkout -b rama
+\# Hacer modificaciones en algún archivo
 $ git add archivo_modificado 
-$ git commit -m "Actualizacion en una rama"
+$ git commit -m "Actualización en una rama"
 $ git push origin rama
 ```
 
