@@ -26,7 +26,7 @@ Antes de actualizar o combinar nuestro repositorio es necesario revisar las dife
 ```
 $ git push origin mi_rama
 ```
-
+De esta manera, **git** nos desplegará las diferencias que hay entre las ramas que estamos solicitando.
 
 
 
