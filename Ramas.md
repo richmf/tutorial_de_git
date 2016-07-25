@@ -26,7 +26,7 @@ supongamos que queremos hacer una rama y en ésta hacemos una modificación a un
 
 ```
 $ git checkout -b rama
-\# Hacer modificaciones en algún archivo
+# Hacer modificaciones en algún archivo
 $ git add archivo_modificado 
 $ git commit -m "Actualización en una rama"
 $ git push origin rama
@@ -38,7 +38,7 @@ Cabe notar que
 
 Antes de actualizar o combinar nuestro repositorio es necesario revisar las diferencias entre las ramas que con las que estamos trabajando. Es por ello que el comando **git** tiene una herramienta que nos permite saber cuales son las diferencias entre los archivos. Para ello hay que ejecutar el siguiente comando:
 ```
-$ git push origin mi_rama
+$ git diff rama_1 rama_2
 ```
 De esta manera, **git** nos desplegará las diferencias que hay entre las ramas que estamos solicitando.
 
