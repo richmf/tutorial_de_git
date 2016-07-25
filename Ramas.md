@@ -31,6 +31,8 @@ $ git commit -m "Actualizacion en una rama"
 $ git push origin rama
 ```
 
+Cabe notar que 
+
 ## Actualizar y combinar ramas
 
 Antes de actualizar o combinar nuestro repositorio es necesario revisar las diferencias entre las ramas que con las que estamos trabajando. Es por ello que el comando **git** tiene una herramienta que nos permite saber cuales son las diferencias entre los archivos. Para ello hay que ejecutar el siguiente comando:
