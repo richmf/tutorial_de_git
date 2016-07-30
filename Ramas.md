@@ -47,9 +47,17 @@ Frecuentemente trabajamos diferentes etapas o actualizaciones de un mismo reposi
 ```
 $ git pull
 ```
-En ocasiones no nos gusta la 
+En ocasiones no nos gustan los cambios que hemos realizado en un archivo de nuestro directorio local. Para ello podemos volver a la versión anterior que se encuentra en línea con el siguiente comando:
+```
+$ git checkout -- archivo_de_la_version_en_linea
+```
+Si de plano no te gustan los cambios que has realizado a todo el directorio puedes ejecutar la siguiente secuancia:
+```
+$ git fetch origin
+$ git reset --hard origin/master
+```
 
-En todos los casos que hagas actualizaciones recuerda revisar el status de tu **git** local y de hacer ```add``` a los archivos modificados. En los otros archivos de este tutorial se exponen tips que puedes utilizar para llevar un mejor control de tus proyectos.
+En todos los casos que hagas actualizaciones recuerda revisar el status de tu **git** local y de hacer ```add``` a los archivos modificados.
 
 Regresar a la página principal del [tutorial](https://github.com/richmf/tutorial_de_git)
 
