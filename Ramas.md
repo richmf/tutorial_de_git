@@ -1,6 +1,6 @@
 # Ramas
 
-Las *Ramas* son utilizadas para llevar un control de las versiones sin afectar la versión original o principal (*master*). Ésto resulta de mucha utilidad ya que si tenemos un programa que sabemos que funciona bien, podemos empezar a generar una nueva versión manteniendo la anterior intacta hasta el momento en que tengamos la necesidad de fusionarlas.
+Las *Ramas* son utilizadas para llevar un control de las versiones sin afectar la versión original o principal (*master*). Esto resulta de mucha utilidad ya que si tenemos un programa que sabemos que funciona bien, podemos empezar a generar una nueva versión manteniendo la anterior intacta hasta el momento en que tengamos la necesidad de fusionarlas.
 
 Para crear una rama y ubicarse en ella hay que utilizar el siguiente comando:
 ```
@@ -14,7 +14,7 @@ Si queremos borrar la rama es con el siguiente comando:
 ```
 $ git branch -d mi_rama
 ```
-Al igual que con la rama principal, es necesario hacer *add* y  *commit* a los archivos modificados. En este caso para que las actualizaciones lleguen al repositorio en **GitHub** es con el siguiente comando:
+Al igual que con la rama principal, es necesario hacer ```add``` y  ```commit``` a los archivos modificados. En este caso para que las actualizaciones lleguen al repositorio en **GitHub** es con el siguiente comando:
 ```
 $ git push origin mi_rama
 ```
@@ -22,8 +22,7 @@ De esta manera podemos tener en el mismo repositorio diferentes versiones, típi
 
 ### Ejemplo
 
-supongamos que queremos hacer una rama y en ésta hacemos una modificación a un archivo del repositorio. Para ello ejecutamos la siguiente secuancia de comandos:
-
+supongamos que queremos hacer una rama y en ésta hacemos una modificación a un archivo del repositorio. Para ello ejecutamos la siguiente secuencia de comandos:
 ```
 $ git checkout -b rama
 # Hacer modificaciones en algún archivo
@@ -31,8 +30,7 @@ $ git add archivo_modificado
 $ git commit -m "Actualización en una rama"
 $ git push origin rama
 ```
-
-Cabe notar que 
+Cabe notar que la forma de hacerlo es muy similar a como se hace con la rama principal, pero las actualizaciones van a dar a la nueva rama.
 
 ## Actualizar y combinar ramas
 
@@ -40,9 +38,16 @@ Antes de actualizar o combinar nuestro repositorio es necesario revisar las dife
 ```
 $ git diff rama_1 rama_2
 ```
-De esta manera, **git** nos desplegará las diferencias que hay entre las ramas que estamos solicitando.
+De esta manera, **git** nos desplegará las diferencias que hay entre las ramas que estamos solicitando. El comando **git** tiene un algoritmo para actualizar las ramas, pero aún así es responsabilidad del usuario revisar que las actualizaciones de su repositorio trabajen de manera adecuada. Para combinar ramas hay que ubicarse con ```checkout``` en la rama que queremos actualizar y posteriormente ejecutamos el siguiente comando:
+```
+$ git merge rama_de_origen_para_fusionar
+```
 
-
+Frecuentemente trabajamos diferentes etapas o actualizaciones de un mismo repositorio en varios computadoras. Para ello existe un comando que actualiza tu repositorio local con el último ```commit``` del repositorio en internet. Esto muy útil cuando trabajas en la escuela y después en tu casa o en la computadora de alguien más. Este comando es:
+```
+$ git pull
+```
+En todos los casos que hagas actualizaciones recuerda revisar el status de ti **git** local y de hacer ```add``` a los archivos modificados.
 
 Regresar a la página principal del [tutorial](https://github.com/richmf/tutorial_de_git)
 
