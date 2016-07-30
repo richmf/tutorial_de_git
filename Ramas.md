@@ -51,7 +51,7 @@ En ocasiones no nos gustan los cambios que hemos realizado en un archivo de nues
 ```
 $ git checkout -- archivo_de_la_version_en_linea
 ```
-Si de plano no te gustan los cambios que has realizado a todo el directorio puedes ejecutar la siguiente secuancia:
+Si de plano no te gustan los cambios que has realizado a todo el directorio puedes ejecutar la siguiente secuencia:
 ```
 $ git fetch origin
 $ git reset --hard origin/master
