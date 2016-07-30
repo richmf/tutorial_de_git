@@ -47,7 +47,7 @@ Frecuentemente trabajamos diferentes etapas o actualizaciones de un mismo reposi
 ```
 $ git pull
 ```
-En todos los casos que hagas actualizaciones recuerda revisar el status de ti **git** local y de hacer ```add``` a los archivos modificados.
+En todos los casos que hagas actualizaciones recuerda revisar el status de tu **git** local y de hacer ```add``` a los archivos modificados. En los otros archivos de este tutorial se exponen tips que puedes utilizar para llevar un mejor control de tus proyectos.
 
 Regresar a la página principal del [tutorial](https://github.com/richmf/tutorial_de_git)
 
