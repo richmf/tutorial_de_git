@@ -59,6 +59,6 @@ $ git reset --hard origin/master
 
 En todos los casos que hagas actualizaciones recuerda revisar el status de tu **git** local y de hacer ```add``` a los archivos modificados.
 
-Regresar a la página principal del [tutorial](https://github.com/richmf/tutorial_de_git)
+Regresar a la página principal del [tutorial de git](https://github.com/richmf/tutorial_de_git)
 
-Regresar a las [Herramientas](http://sistemas.fciencias.unam.mx/~rich/herramientas/index.html)
+Regresar a las [Herramientas](http://sistemas.fciencias.unam.mx/~rich/Herramientas/index.html)

@@ -1,11 +1,11 @@
 # Tutorial básico para el uso de **git**
 
-**Rich** :smile:
-v.1.0
+**Rich** :smile: v.2.1
 
 En este tutorial podrás aprender rápidamente como utilizar **git** y **GitHub**. Para ello debes tener una cuenta en [GitHub](https://github.com) y tener instalado **git**. Estas herramientas son muy útiles para el control de versiones y para tener organizados los archivos que se utilizan en el desarrollo de un programa.
 
 > **GitHub** es una empresa que se encarga de mantener repositorios en internet. Normalmente es un servicio de paga, pero si dejas que tus repositorios sean públicos, entonces el servicio es gratuito.
+>
 > **git** es un comando que permite llevar un control de versiones de los diferentes programas que vayamos haciendo.
 
 El objetivo es utilizar el comando **git** en la terminal para manejar los repositorios de los programas que vayan generando.
@@ -23,7 +23,7 @@ $ git config --global user.email "tu_email@correoelectronico.com"
 
 ## Para crear un repositorio
 
-Primero hay que generar un repositorio vacío en la página de GitHub. En el caso de este tutorial utilizaremos como ejemplo la forma en la que se generó este repositorio. Para ello en la página de **GitHub** se creó el repositorio llamado *tutorial_de_git* y como resultado el sitio de internet nos generó la siguiente página para el repositorio: *https://github.com/richmf/tutorial_de_git.git* . De esta manera en los servidores de **GitHub** estará dado de alta el repositorio. Para poner archivos en nuestro repositorio basta con subir los archivos por medio del sitio de internet, pero es la manera más ineficiente que hay cuando se está desarrollando un programa y además mantenerlo actualizado. Es por ello que utilizamos en comando **git** y para ello dos maneras de proceder:
+Primero hay que generar un repositorio vacío en la página de GitHub. En el caso de este tutorial utilizaremos como ejemplo la forma en la que se generó este repositorio. Para ello en la página de **GitHub** se creó el repositorio llamado *tutorial_de_git* y como resultado el sitio de internet nos generó la siguiente página para el repositorio: *https://github.com/richmf/tutorial_de_git.git* . De esta manera en los servidores de **GitHub** estará dado de alta el repositorio. Para poner archivos en nuestro repositorio basta con subir los archivos por medio del sitio de internet, pero es la manera más ineficiente que hay cuando se está desarrollando un programa y además mantenerlo actualizado. Es por ello que utilizamos el comando **git** y para ello dos maneras de proceder:
 
 1. Podemos clonar el repositorio introduciendo el siguiente comando en la terminal:
     ```
@@ -33,7 +33,7 @@ Esto creará una carpeta llamada *tutorial_de_git* en nuestra computadora y dent
 
 2. La segunda opción es crear la carpeta, dar de alta a **git** dentro de la carpeta y el repositorio al que estará asociado. Esto se logra con los siguientes comandos en la terminal:
     ```
-    $ mkdir tutorial_de_git.git
+    $ mkdir tutorial_de_git
     $ cd tutorial_de_git/
     $ git init
     $ git remote add origin https://github.com/richmf/tutorial_de_git.git
