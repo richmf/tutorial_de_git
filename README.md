@@ -56,6 +56,8 @@ Es importante señalar que tenemos que poner un mensaje con el que podamos ident
 $ git push origin master
 ```
 
+***
+
 Una herramienta útil con la que podemos checar el status de nuestro repositorio con el siguiente comando
 ```
 $ git status
