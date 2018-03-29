@@ -2,23 +2,23 @@
 
 Las *Ramas* son utilizadas para llevar un control de las versiones sin afectar la versión original o principal (*master*). Esto resulta de mucha utilidad ya que si tenemos un programa que sabemos que funciona bien, podemos empezar a generar una nueva versión manteniendo la anterior intacta hasta el momento en que tengamos la necesidad de fusionarlas.
 
-Para crear una rama y ubicarse en ella hay que utilizar el siguiente comando:
+Para **crear** una rama y ubicarse en ella hay que utilizar el siguiente comando:
 ```
 $ git checkout -b mi_rama
 ```
-Para regresar al la rama principal o *master* es con el siguiente comando:
+El argumento `-b` es para indicar que se está creando una nueva rama. El siguiente comando es para regresar al la rama principal o *master*:
 ```
 $ git checkout master
 ```
-Si queremos borrar la rama es con el siguiente comando:
+Si queremos **borrar** una rama es con el siguiente comando:
 ```
 $ git branch -d mi_rama
 ```
-Al igual que con la rama principal, es necesario hacer ```add``` y  ```commit``` a los archivos modificados. En este caso para que las actualizaciones lleguen al repositorio en **GitHub** es con el siguiente comando:
+Al igual que con la rama principal, es necesario hacer ```add``` y  ```commit``` a los archivos modificados. Con el siguiente comando actualizamos la nueva rama en el repositorio de **GitHub**:
 ```
 $ git push origin mi_rama
 ```
-De esta manera podemos tener en el mismo repositorio diferentes versiones, típicamente una o varias que estamos modificando para mejorar la principal o *master*.
+De esta manera podemos tener en el mismo repositorio diferentes versiones, típicamente una o varias que estamos modificando para mejorar la rama principal o *master*.
 
 ### Ejemplo
 
@@ -34,7 +34,7 @@ Cabe notar que la forma de hacerlo es muy similar a como se hace con la rama pri
 
 ## Actualizar y combinar ramas
 
-Antes de actualizar o combinar nuestro repositorio es necesario revisar las diferencias entre las ramas que con las que estamos trabajando. Es por ello que el comando **git** tiene una herramienta que nos permite saber cuales son las diferencias entre los archivos. Para ello hay que ejecutar el siguiente comando:
+Antes de actualizar o combinar nuestro repositorio es necesario revisar las diferencias entre las ramas con las que estamos trabajando. El comando **git** tiene una herramienta que nos permite saber cuales son las diferencias entre los archivos. Para ello hay que ejecutar el siguiente comando:
 ```
 $ git diff rama_1 rama_2
 ```
@@ -43,11 +43,11 @@ De esta manera, **git** nos desplegará las diferencias que hay entre las ramas 
 $ git merge rama_de_origen_para_fusionar
 ```
 
-Frecuentemente trabajamos diferentes etapas o actualizaciones de un mismo repositorio en varios computadoras. Para ello existe un comando que actualiza tu repositorio local con el último ```commit``` del repositorio en internet. Esto muy útil cuando trabajas en la escuela y después en tu casa o en la computadora de alguien más. Este comando es:
+Frecuentemente trabajamos diferentes etapas o actualizaciones de un mismo repositorio en varios computadoras. Para ello existe un comando que actualiza tu repositorio local con el último ```commit``` del repositorio en internet. Esto es muy útil cuando trabajas en la escuela y después en tu casa o en la computadora de alguien más. Este comando es:
 ```
 $ git pull
 ```
-En ocasiones no nos gustan los cambios que hemos realizado en un archivo de nuestro directorio local. Para ello podemos volver a la versión anterior que se encuentra en línea con el siguiente comando:
+En ocasiones no nos gustan los cambios que hemos realizado en un archivo de nuestro directorio local. Para ello podemos volver a la versión que se encuentra en línea con el siguiente comando:
 ```
 $ git checkout -- archivo_de_la_version_en_linea
 ```
@@ -62,3 +62,9 @@ En todos los casos que hagas actualizaciones recuerda revisar el status de tu **
 Regresar a la página principal del [tutorial de git](https://github.com/richmf/tutorial_de_git)
 
 Regresar a las [Herramientas](http://sistemas.fciencias.unam.mx/~rich/Herramientas/index.html)
+
+Se agradece el apoyo de los proyectos DGAPA-PAPIME:
+
+- PE 105017 durante el año 2017. *Versión 2*
+
+- PE 108216 durante el año 2016. *Idea original*

@@ -75,7 +75,7 @@ De esta manera podemos tener una copia actualizada de nuestro trabajo en **GitHu
 
 ---
 
-También se invita al lector que revise el [tutorial interactivo](https://try.github.io) que *Code School* ha diseñado para los usuarios novatos de **git**
+También se invita al lector que revise el [tutorial interactivo](https://try.github.io) que *Code School* ha diseñado para los usuarios novatos de **git**.
 
 ---
 
