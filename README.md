@@ -58,20 +58,31 @@ $ git push origin master
 
 ***
 
-Una herramienta útil con la que podemos checar el status de nuestro repositorio con el siguiente comando
+Una herramienta útil con la que podemos revisar el status de nuestro repositorio con el siguiente comando
 ```
 $ git status
 ```
-De esta manera podemos saber a que archivos tenemos hay que hacerles *add* y/o *commit*. Como se puede apreciar, la secuencia básica de comandos es:
+De esta manera podemos saber a que archivos tenemos hay que hacerles *add* y/o *commit*. Como se puede apreciar, la secuencia básica de los comandos es:
 ```
 $ git add nombre_del_archivo
 $ git commit -m "Mensaje a grabar"
 $ git push origin master
 ```
 
-De esta manera podemos tener una copia actualizada de nuestro trabajo en **GitHub**. En el otro archivo de este tutorial podemos encontrar herramientas y tips que pueden ser útiles para manejar con mayor eficiencia el comando **git**. Los tópicos que se abordan son:
+De esta manera podemos tener una copia actualizada de nuestro trabajo en **GitHub**. En el otro archivo de este tutorial podemos encontrar herramientas y tips que pueden ser útiles para manejar con mayor eficiencia el comando **git**. Los temas que se abordan son en las otras partes del tutorial son:
 
-- Ramas y control de versiones.
+- [Ramas y control de versiones](https://github.com/richmf/tutorial_de_git/blob/master/Ramas.md).
 
+---
+
+También se invita al lector que revise el [tutorial interactivo](https://try.github.io) que *Code School* ha diseñado para los usuarios novatos de **git**
+
+---
 
 Regresar a las [Herramientas](http://sistemas.fciencias.unam.mx/~rich/Herramientas/index.html)
+
+Se agradece el apoyo de los proyectos DGAPA-PAPIME:
+
+- PE 105017 durante el año 2017. *Versión 2*
+
+- PE 108216 durante el año 2016. *Idea original*
