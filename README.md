@@ -39,11 +39,11 @@ Esto creará una carpeta llamada *tutorial_de_git* en nuestra computadora y dent
     $ git remote add origin https://github.com/richmf/tutorial_de_git.git
     ```
 
-Cualquiera de las dos maneras que se elijan, el resultado es el mismo. La primera opción es más utilizada cuando se quiere hacer un repositorio completamente nuevo y la segunda opción se utiliza cuando tenemos un programa que ha hemos estado desarrollando en nuestra computadora y ahora queremos utilizar **GitHub** para publicarlo. De hecho, en el segundo caso basta con los últimos dos comandos para inicializar **git** en dicha carpeta, sólo hay que tomar en cuenta que el repositorio debe existir en la página de **GitHub**.
+Cualquiera de las dos maneras que se elijan, el resultado es el mismo. La primera opción es más utilizada cuando se quiere hacer un repositorio completamente nuevo y la segunda opción se utiliza cuando tenemos un programa que ha hemos estado desarrollando en nuestra computadora y ahora queremos utilizar **GitHub** para publicarlo o actualizarlos. De hecho, en el segundo caso basta con los últimos dos comandos para inicializar **git** en dicha carpeta, sólo hay que tomar en cuenta que el repositorio debe existir en la página de **GitHub**.
 
 ## Para agregar nuevos archivos o hacer modificaciones
 
-Dentro de la carpeta local podemos hacer modificaciones y/o crear nuevos archivos. Para que éstos queden dentro de la estructura de actualización en tenemos que agregarlos al índice de **git** con el siguiente comando:
+Dentro de la carpeta local podemos hacer modificaciones y/o crear nuevos archivos. Para que éstos queden dentro de la estructura de actualización del repositorio, tenemos que agregarlos al índice de **git** con el siguiente comando:
 ```
 $ git add nombre_del_archivo
 ```
@@ -55,6 +55,7 @@ Es importante señalar que tenemos que poner un mensaje con el que podamos ident
 ```
 $ git push origin master
 ```
+
 Una herramienta útil con la que podemos checar el status de nuestro repositorio con el siguiente comando
 ```
 $ git status
@@ -71,4 +72,4 @@ De esta manera podemos tener una copia actualizada de nuestro trabajo en **GitHu
 - Ramas y control de versiones.
 
 
-Regresar a las [Herramientas](http://sistemas.fciencias.unam.mx/~rich/herramientas/index.html)
+Regresar a las [Herramientas](http://sistemas.fciencias.unam.mx/~rich/Herramientas/index.html)
