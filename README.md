@@ -83,6 +83,4 @@ Regresar a las [Herramientas](http://sistemas.fciencias.unam.mx/~rich/Herramient
 
 Se agradece el apoyo de los proyectos DGAPA-PAPIME:
 
-- PE 105017 durante el año 2017. *Versión 2*
-
-- PE 108216 durante el año 2016. *Idea original*
+-  PE 103021 durante el año 2021 y 2022. *Versión 3*
