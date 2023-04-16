@@ -59,12 +59,10 @@ $ git reset --hard origin/master
 
 En todos los casos que hagas actualizaciones recuerda revisar el status de tu **git** local y de hacer ```add``` a los archivos modificados.
 
-Regresar a la página principal del [tutorial de git](https://github.com/richmf/tutorial_de_git)
+Regresar a la página del GitHub del [tutorial de git](https://github.com/richmf/tutorial_de_git)
 
-Regresar a las [Herramientas](http://sistemas.fciencias.unam.mx/~rich/Herramientas/index.html)
+Regresar a la página de [Herramientas](http://sistemas.fciencias.unam.mx/~rich/Herramientas/index.html)
 
-Se agradece el apoyo de los proyectos DGAPA-PAPIME:
+Se agradece el apoyo del proyecto DGAPA-PAPIME PE 103021 durante el año 2021 y 2022. 
 
-- PE 105017 durante el año 2017. *Versión 2*
-
-- PE 108216 durante el año 2016. *Idea original*
+*Versión del tutorial 3.0.1 (2023)*
