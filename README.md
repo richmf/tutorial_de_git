@@ -81,6 +81,6 @@ También se invita al lector que revise el [tutorial interactivo](https://try.gi
 
 Regresar a las [Herramientas](http://sistemas.fciencias.unam.mx/~rich/Herramientas/index.html)
 
-Se agradece el apoyo de los proyectos DGAPA-PAPIME:
+Se agradece el apoyo del proyecto DGAPA-PAPIME PE 103021 durante el año 2021 y 2022. 
 
--  PE 103021 durante el año 2021 y 2022. *Versión 3*
+*Versión del tutorial 3.0.1 (2023)*
