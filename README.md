@@ -1,6 +1,6 @@
 # Tutorial básico para el uso de **git**
 
-**Rich** :smile: v.2.1
+**Rich** :smile: v.2.2
 
 En este tutorial podrás aprender rápidamente como utilizar **git** y **GitHub**. Para ello debes tener una cuenta en [GitHub](https://github.com) y tener instalado **git**. Estas herramientas son muy útiles para el control de versiones y para tener organizados los archivos que se utilizan en el desarrollo de un programa.
 
